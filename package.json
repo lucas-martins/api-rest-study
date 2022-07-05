@@ -1,0 +1,25 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Estudo de Rest API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas-martins/api-rest-study.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Lucas Martins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucas-martins/api-rest-study/issues"
+  },
+  "homepage": "https://github.com/lucas-martins/api-rest-study#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
