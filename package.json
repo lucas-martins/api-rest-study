@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/lucas-martins/api-rest-study#readme",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "express": "^4.18.1",
     "morgan": "^1.10.0"
   },

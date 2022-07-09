@@ -8,7 +8,14 @@ router.get('/', (req, res, next) => {
 
 // Insere um pedido
 router.post('/', (req, res, next) => {
-    res.status(201).send({message: 'O pedido foi criado.'})
+    const order = {
+        product_id: req.body.product_id,
+        amount: req.body.amount
+    }
+    res.status(201).send({
+        message: 'O pedido foi criado.',
+        order: order
+    })
 })
 
 // Retorna os dados de um pedido

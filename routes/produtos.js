@@ -8,7 +8,14 @@ router.get('/', (req, res, next) => {
 
 // Insere um produto
 router.post('/', (req, res, next) => {
-    res.status(201).send({message: 'Insere um produto.'})
+    const product = {
+        name: req.body.name,
+        value: req.body.value
+    }
+    res.status(201).send({
+        message: 'Insere um produto.',
+        productCreated: product
+    })
 })
 
 // Retorna os dados de um produto
